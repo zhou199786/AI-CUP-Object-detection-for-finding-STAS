@@ -23,9 +23,11 @@ pip install fvcore
 
 
 #Train:
-
+程式碼我們參考了CenterNetv2的官方程式
+https://github.com/xingyizhou/CenterNet2/blob/master/README.md
 執行 CenterNet2/train_net.py 即可訓練
 train_net.py提供四種參數修改
+
 
 NUM_CLASSES (類別數量)
 args.config_file (參數檔yaml的路徑)
